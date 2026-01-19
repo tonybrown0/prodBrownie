@@ -1,94 +1,34 @@
-/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* BODY */
 body {
-  background-color: #0a0a0a;
-  color: #ffffff;
+  background: black;
+  color: white;
   font-family: 'Orbitron', sans-serif;
 }
 
-/* NAVBAR */
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  border-bottom: 1px solid #1f1f1f;
-}
-
-.logo {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.menu a {
-  margin-left: 20px;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 14px;
-  opacity: 0.8;
-  transition: opacity 0.3s;
-}
-
-.menu a:hover {
-  opacity: 1;
-}
-
-/* HERO */
+/* TESTE DE IMAGEM */
 .hero {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 48px;
-  margin-bottom: 15px;
-}
-
-.hero p {
-  font-size: 14px;
-  opacity: 0.7;
-}
-/* BACKGROUND COM IMAGEM */
-.hero {
-  height: 100vh;
-  background-image:
-    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
-    url("../assets/bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-/* HERO COM ASSINATURA */
-.hero {
+  width: 100%;
   height: 100vh;
 
-  background-image:
-    linear-gradient(rgba(0,0,0,0.😎, rgba(0,0,0,0.95)),
-    url("../assets/signature.png");
-
+  background-image: url("../assets/signature.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 70%;
+  background-size: contain;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  border: 2px solid red; /* DEBUG */
+}
+
+.hero h2 {
+  margin-bottom: 10px;
 }
