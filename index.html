@@ -3,32 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>Prod.Brownie</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script defer src="js/menu.js"></script>
-</head>
 
+  <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
 
-<header>
+<nav>
   <div class="logo">Prod.Brownie</div>
 
-  <div class="menu-btn" id="menu-btn">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</header>
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
 
-<nav id="menu">
-  <a href="index.html">Início</a>
-  <a href="beats.html">Beats</a>
-  <a href="contato.html">Contato</a>
+  <ul class="menu">
+    <li><a href="beats.html">Beats</a></li>
+    <li><a href="simples.html">Simples</a></li>
+    <li><a href="contato.html">Contato</a></li>
+  </ul>
 </nav>
 
 <section class="hero">
   <h1>Dark Beats</h1>
-  <p>Prod.Brownie</p>
+  <p>Real vibes. Real sound.</p>
 </section>
 
+<script src="js/menu.js"></script>
 </body>
 </html>
