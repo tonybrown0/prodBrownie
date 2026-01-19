@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -10,8 +12,8 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* HEADER */
-header {
+/* NAV */
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,61 +21,64 @@ header {
 }
 
 .logo {
-  font-weight: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 28px;
+  letter-spacing: 3px;
 }
 
-/* MENU BUTTON */
 .menu-btn {
-  width: 30px;
+  font-size: 28px;
   cursor: pointer;
 }
 
-.menu-btn span {
-  display: block;
-  height: 3px;
-  background: white;
-  margin: 6px 0;
-}
-
-/* MENU */
-nav {
-  position: fixed;
-  top: 0;
-  right: -100%;
-  width: 200px;
-  height: 100vh;
+.menu {
+  position: absolute;
+  top: 70px;
+  right: 20px;
   background: #111;
-  display: flex;
-  flex-direction: column;
-  padding-top: 80px;
-  transition: 0.3s;
+  list-style: none;
+  padding: 15px;
+  display: none;
 }
 
-nav a {
+.menu li {
+  margin: 10px 0;
+}
+
+.menu a {
   color: white;
   text-decoration: none;
-  padding: 15px;
-  text-align: center;
 }
 
-nav.active {
-  right: 0;
+.menu.show {
+  display: block;
 }
 
 /* HERO */
 .hero {
   height: 100vh;
-  background: url("../assets/signature.png") center no-repeat;
-  background-size: contain;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 60px;
+}
+
+.hero p {
+  opacity: 0.7;
 }
 
 /* PAGES */
 .page {
   padding: 80px 20px;
-  text-align: center;
+}
+
+.back {
+  color: white;
+  text-decoration: none;
 }
