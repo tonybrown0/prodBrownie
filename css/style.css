@@ -74,3 +74,21 @@ nav {
   align-items: center;
   text-align: center;
 }
+/* HERO COM ASSINATURA */
+.hero {
+  height: 100vh;
+
+  background-image:
+    linear-gradient(rgba(0,0,0,0.😎, rgba(0,0,0,0.95)),
+    url("../assets/signature.png");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
