@@ -58,3 +58,19 @@ nav {
   font-size: 14px;
   opacity: 0.7;
 }
+/* BACKGROUND COM IMAGEM */
+.hero {
+  height: 100vh;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+    url("../assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
