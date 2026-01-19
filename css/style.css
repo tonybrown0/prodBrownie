@@ -7,28 +7,73 @@
 body {
   background: black;
   color: white;
-  font-family: 'Orbitron', sans-serif;
+  font-family: Arial, sans-serif;
 }
 
-/* TESTE DE IMAGEM */
-.hero {
-  width: 100%;
-  height: 100vh;
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
 
-  background-image: url("../assets/signature.png");
-  background-repeat: no-repeat;
-  background-position: center;
+.logo {
+  font-weight: bold;
+}
+
+/* MENU BUTTON */
+.menu-btn {
+  width: 30px;
+  cursor: pointer;
+}
+
+.menu-btn span {
+  display: block;
+  height: 3px;
+  background: white;
+  margin: 6px 0;
+}
+
+/* MENU */
+nav {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 200px;
+  height: 100vh;
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  transition: 0.3s;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+}
+
+nav.active {
+  right: 0;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: url("../assets/signature.png") center no-repeat;
   background-size: contain;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-
-  border: 2px solid red; /* DEBUG */
 }
 
-.hero h2 {
-  margin-bottom: 10px;
+/* PAGES */
+.page {
+  padding: 80px 20px;
+  text-align: center;
 }
