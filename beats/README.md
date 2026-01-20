@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Beats | Prod.Brownie</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+<header class="topo">
+  <h1>Beats</h1>
+</header>
+
+<section class="beats-container">
+
+  <!-- BEAT 1 -->
+  <div class="beat-card">
+    <h2>Dark Trap 001</h2>
+    <audio controls>
+      <source src="assets/audio/beat1.mp3" type="audio/mpeg">
+    </audio>
+    <a href="https://mpago.la/1WDTu9g" target="_blank" class="buy-btn">
+      Comprar Beat
+    </a>
+  </div>
+
+  <!-- BEAT 2 -->
+  <div class="beat-card">
+    <h2>Drill Night</h2>
+    <audio controls>
+      <source src="assets/audio/beat2.mp3" type="audio/mpeg">
+    </audio>
+    <a href="https://mpago.la/1WDTu9g" target="_blank" class="buy-btn">
+      Comprar Beat
+    </a>
+  </div>
+
+  <!-- BEAT 3 -->
+  <div class="beat-card">
+    <h2>Underground Soul</h2>
+    <audio controls>
+      <source src="assets/audio/beat3.mp3" type="audio/mpeg">
+    </audio>
+    <a href="https://mpago.la/1WDTu9g" target="_blank" class="buy-btn">
+      Comprar Beat
+    </a>
+  </div>
+
+</section>
+
+</body>
+</html>
 
