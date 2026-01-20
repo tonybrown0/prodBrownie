@@ -1,30 +1,72 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Prod.Brownie</title>
+  <title>Prod.Brownie | Beats Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/style.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style/style.css">
+
 </head>
 <body>
 
-<nav>
-  <div class="logo">Prod.Brownie</div>
-
+  <!-- BOTÃO MENU -->
   <div class="menu-btn" onclick="toggleMenu()">☰</div>
 
-  <ul class="menu">
-    <li><a href="beats.html">Beats</a></li>
-    <li><a href="simples.html">Simples</a></li>
-    <li><a href="contato.html">Contato</a></li>
-  </ul>
-</nav>
+  <!-- MENU -->
+  <nav class="menu" id="menu">
+    <a href="index.html">Home</a>
+    <a href="beats.html">Beats</a>
+    <a href="contact.html">Contato</a>
+  </nav>
 
-<section class="hero">
-  <h1>Dark Beats</h1>
-  <p>Real vibes. Real sound.</p>
-</section>
+  <!-- TOPO -->
+  <header class="topo">
+    <h1>PROD.BROWNIE</h1>
+    <p>Dark Beats • Trap • Drill</p>
+  </header>
 
-<script src="js/menu.js"></script>
+  <!-- BEATS -->
+  <section class="beats-container">
+
+    <!-- Beat 1 -->
+    <div class="beat-card">
+      <h2>Midnight Trap</h2>
+      <audio controls>
+        <source src="beats/beat1.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+      <a href="https://mpago.la/1WDTu9g" class="buy-btn" target="_blank">
+        Buy – $35
+      </a>
+    </div>
+
+    <!-- Beat 2 -->
+    <div class="beat-card">
+      <h2>Dark Streets</h2>
+      <audio controls>
+        <source src="beats/beat2.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+      <a href="https://mpago.la/1WDTu9g" class="buy-btn" target="_blank">
+        Buy – $35
+      </a>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Prod.Brownie • All Rights Reserved
+  </footer>
+
+  <!-- SCRIPT MENU -->
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("active");
+    }
+  </script>
+
 </body>
 </html>
