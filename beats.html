@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Beats | Prod.Brownie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
 
+  <!-- MENU -->
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+  <nav class="menu" id="menu">
+    <a href="index.html">Home</a>
+    <a href="beats.html">Beats</a>
+    <a href="contact.html">Contato</a>
+  </nav>
+
+  <!-- TOPO -->
+  <header class="topo">
+    <h1>Beats</h1>
+  </header>
+
+  <!-- SEÇÃO DE BEATS -->
+  <section class="beats-container">
+
+    <!-- EXEMPLO DE BEAT -->
+    <div class="beat-card">
+      <h2>Dark Trap 01</h2>
+      <audio controls>
+        <source src="beats/dark_trap_01.mp3" type="audio/mpeg">
+      </audio>
+      <a href="https://mpago.la/1WDTu9g" target="_blank" class="buy-btn">
+        BUY BEAT – $35
+      </a>
+    </div>
+
+    <div class="beat-card">
+      <h2>Drill Night 02</h2>
+      <audio controls>
+        <source src="beats/drill_night_02.mp3" type="audio/mpeg">
+      </audio>
+      <a href="https://mpago.la/1WDTu9g" target="_blank" class="buy-btn">
+        BUY BEAT – $35
+      </a>
+    </div>
+
+    <div class="beat-card">
+      <h2>Underground Soul 03</h2>
+      <audio controls>
+        <source src="beats/underground_soul_03.mp3" type="audio/mpeg">
+      </audio>
+      <a href="https://mpago.la/1WDTu9g" target="_blank" class="buy-btn">
+        BUY BEAT – $35
+      </a>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 Prod.Brownie • Todos os direitos reservados
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>
