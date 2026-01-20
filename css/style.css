@@ -20,7 +20,7 @@
 }
 
 /* =========================
-   BODY GERAL
+   BODY
 ========================= */
 body {
   background: var(--bg-dark);
@@ -30,7 +30,7 @@ body {
 }
 
 /* =========================
-   TOPO / HEADER
+   HEADER / TOPO
 ========================= */
 .topo {
   padding: 40px 20px;
@@ -43,8 +43,13 @@ body {
   letter-spacing: 2px;
 }
 
+.topo p {
+  color: var(--cinza);
+  margin-top: 8px;
+}
+
 /* =========================
-   MENU (HAMBURGUER)
+   MENU HAMBURGUER
 ========================= */
 .menu-btn {
   position: fixed;
@@ -87,7 +92,7 @@ body {
 }
 
 /* =========================
-   SEÇÃO BEATS
+   BEATS
 ========================= */
 .beats-container {
   display: grid;
@@ -122,9 +127,7 @@ body {
   margin-bottom: 18px;
 }
 
-/* =========================
-   BOTÃO COMPRAR
-========================= */
+/* BOTÃO COMPRAR */
 .buy-btn {
   display: inline-block;
   padding: 12px 25px;
