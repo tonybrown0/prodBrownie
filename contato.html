@@ -1,21 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>Contato | Prod.Brownie</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 
-<nav>
-  <div class="logo">Prod.Brownie</div>
-  <a class="back" href="index.html">← Voltar</a>
-</nav>
+  <!-- MENU -->
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+  <nav class="menu" id="menu">
+    <a href="index.html">Home</a>
+    <a href="beats.html">Beats</a>
+    <a href="contact.html">Contato</a>
+  </nav>
 
-<section class="page">
-  <h1>Contato</h1>
-  <p>Email / Instagram / WhatsApp</p>
-</section>
+  <header class="topo">
+    <h1>Contato</h1>
+  </header>
+
+  <section class="contato">
+    <p>Email: <a href="mailto:tonnybrownie424@gmail.com">tonnybrownie424@gmail.com</a></p>
+  </section>
+
+  <footer>
+    © 2026 Prod.Brownie • Todos os direitos reservados
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("active");
+    }
+  </script>
 
 </body>
 </html>
