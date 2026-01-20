@@ -1,52 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>Beats | Prod.Brownie</title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
 
-  <!-- NAVBAR -->
-  <nav>
-    <div class="logo">Prod.Brownie</div>
-    <a class="back" href="index.html">← Voltar</a>
-  </nav>
+<header class="topo">
+  <h1>Beats</h1>
+</header>
 
-  <!-- CONTEÚDO -->
-  <section class="page">
-    <h1>Beats</h1>
+<section class="beats-container">
 
-    <div class="beats-container">
+  <!-- BEAT 1 -->
+  <div class="beat-card">
+    <h2>Dark Trap 001</h2>
+    <audio controls>
+      <source src="assets/audio/beat1.mp3" type="audio/mpeg">
+    </audio>
+    <a href="https://mpago.la/1WDTu9g" target="_blank" class="buy-btn">
+      Comprar Beat
+    </a>
+  </div>
 
-      <!-- BEAT 1 -->
-      <div class="beat-card">
-        <h2>ateliê</h2>
-        <p>BPM: 120 • Trap</p>
+  <!-- BEAT 2 -->
+  <div class="beat-card">
+    <h2>Drill Night</h2>
+    <audio controls>
+      <source src="assets/audio/beat2.mp3" type="audio/mpeg">
+    </audio>
+    <a href="https://mpago.la/1WDTu9g" target="_blank" class="buy-btn">
+      Comprar Beat
+    </a>
+  </div>
 
-        <audio controls>
-          <source src="beats/atelie.mp3" type="audio/mpeg">
-          Seu navegador não suporta áudio.
-        </audio>
+  <!-- BEAT 3 -->
+  <div class="beat-card">
+    <h2>Underground Soul</h2>
+    <audio controls>
+      <source src="assets/audio/beat3.mp3" type="audio/mpeg">
+    </audio>
+    <a href="https://mpago.la/1WDTu9g" target="_blank" class="buy-btn">
+      Comprar Beat
+    </a>
+  </div>
 
-        <span class="price">$35</span>
-
-        <a 
-          class="buy-btn"
-          href="https://mpago.la/1WDTu9g"
-          target="_blank"
-        >
-          BUY BEAT
-        </a>
-      </div>
-
-      <!-- VOCÊ PODE COPIAR ESSE BLOCO PRA ADICIONAR MAIS BEATS -->
-
-    </div>
-  </section>
+</section>
 
 </body>
 </html>
